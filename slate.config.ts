@@ -4,11 +4,11 @@
 import { defineConfig } from './src/helpers/config-helper';
 
 export default defineConfig({
-  lang: 'en-US',
-  site: 'https://slate-blog-demo.vercel.app',
+  lang: 'ko-KR',
+  site: 'https://slate-blog-topaz.vercel.app/',
   avatar: '/avatar.png',
-  title: 'Slate Blog',
-  description: 'Pure thoughts, simple stories.',
+  title: 'Blog',
+  description: '',
   lastModified: true,
   readTime: true,
   footer: {
@@ -17,7 +17,7 @@ export default defineConfig({
   socialLinks: [
     {
       icon: 'github',
-      link: 'https://github.com/SlateDesign/slate-blog'
+      link: 'https://github.com/jch1223',
     },
-]
+  ],
 });

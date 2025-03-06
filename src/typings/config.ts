@@ -1,6 +1,6 @@
 import type { SitemapOptions } from '@astrojs/sitemap';
 
-export const languages = ['zh-CN', 'en-US'] as const;
+export const languages = ['ko-KR', 'en-US'] as const;
 export type LangType = (typeof languages)[number];
 
 export const theme = ['auto', 'light', 'dark'] as const;

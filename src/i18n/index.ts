@@ -1,14 +1,14 @@
 import i18next from 'i18next'
-import zhCn from './lang/zh-cn';
+import koKr from './lang/ko-kr';
 import enUS from './lang/en-us'
 import slateConfig from '~@/slate.config';
 
 await i18next.init({
   lng: slateConfig.lang,
-  fallbackLng: 'es-US',
+  fallbackLng: 'ko-KR',
   resources: {
-    'zh-CN': {
-      translation: zhCn
+    'ko-KR': {
+      translation: koKr
     },
     'en-US': {
       translation: enUS

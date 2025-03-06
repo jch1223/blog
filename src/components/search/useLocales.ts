@@ -7,43 +7,43 @@ export const algoliaLocalesConfig: Record<
   Omit<DocSearchProps, 'appId' | 'apiKey' | 'indexName'>
 > = {
   'en-US': {},
-  'zh-CN': {
-    placeholder: '搜索文档',
+  'ko-KR': {
+    placeholder: '검색',
     translations: {
       button: {
-        buttonText: '搜索',
-        buttonAriaLabel: '搜索',
+        buttonText: '검색',
+        buttonAriaLabel: '검색',
       },
       modal: {
         searchBox: {
-          resetButtonTitle: '清除查询条件',
-          resetButtonAriaLabel: '清除查询条件',
-          cancelButtonText: '取消',
-          cancelButtonAriaLabel: '取消',
+          resetButtonTitle: '초기화',
+          resetButtonAriaLabel: '초기화',
+          cancelButtonText: '취소',
+          cancelButtonAriaLabel: '취소',
         },
         startScreen: {
-          recentSearchesTitle: '搜索历史',
-          noRecentSearchesText: '没有搜索历史',
-          saveRecentSearchButtonTitle: '保存至搜索历史',
-          removeRecentSearchButtonTitle: '从搜索历史中移除',
-          favoriteSearchesTitle: '收藏',
-          removeFavoriteSearchButtonTitle: '从收藏中移除',
+          recentSearchesTitle: '검색 기록',
+          noRecentSearchesText: '검색 기록이 없습니다.',
+          saveRecentSearchButtonTitle: '검색 기록에 저장',
+          removeRecentSearchButtonTitle: '검색 기록에서 제거',
+          favoriteSearchesTitle: '즐겨찾기',
+          removeFavoriteSearchButtonTitle: '즐겨찾기에서 제거',
         },
         errorScreen: {
-          titleText: '无法获取结果',
-          helpText: '你可能需要检查你的网络连接',
+          titleText: '결과를 가져오지 못했습니다.',
+          helpText: '네트워크 연결을 확인해주세요.',
         },
         footer: {
-          selectText: '选择',
-          navigateText: '切换',
-          closeText: '关闭',
-          searchByText: '搜索提供者',
+          selectText: '선택',
+          navigateText: '전환',
+          closeText: '닫기',
+          searchByText: '검색 제공자',
         },
         noResultsScreen: {
-          noResultsText: '无法找到相关结果',
-          suggestedQueryText: '你可以尝试查询',
-          reportMissingResultsText: '你认为该查询应该有结果？',
-          reportMissingResultsLinkText: '点击反馈',
+          noResultsText: '검색 결과를 찾을 수 없습니다.',
+          suggestedQueryText: '다른 검색어를 시도해보세요.',
+          reportMissingResultsText: '검색 결과가 없다고 생각하시나요?',
+          reportMissingResultsLinkText: '피드백 보내기',
         },
       },
     },
