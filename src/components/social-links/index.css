@@ -70,4 +70,8 @@
   &.mail {
     --icon: url('../../assets/images/mail.svg');
   }
+
+  &.linkedin {
+    --icon: url('../../assets/images/linkedin.svg');
+  }
 }

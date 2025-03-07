@@ -33,6 +33,7 @@ type SocialLinkIcon =
   | 'threads'
   | 'x'
   | 'youtube'
+  | 'linkedin'
   | { svg: string };
 
 export interface SlateConfig {
