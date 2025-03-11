@@ -19,5 +19,13 @@ export default defineConfig({
       icon: 'github',
       link: 'https://github.com/jch1223',
     },
+    {
+      icon: 'linkedin',
+      link: 'https://www.linkedin.com/in/chulhee-jang/',
+    },
+    {
+      icon: 'mail',
+      link: 'mailto:vitnal.dev@gmail.com',
+    },
   ],
 });
