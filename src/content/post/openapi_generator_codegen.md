@@ -3,7 +3,7 @@ title: OpenAPI Generator를 사용하여 api에 대한 typescript 코드젠
 description: OpenAPI Generator에 대한 간단한 소개와 사용하면서 부딪친 버그 해결
 tags:
   - Dev
-pubDate: 2024-03-11
+pubDate: 2024-07-23
 ---
 
 회사에서 OpenAPI-Specification으로 api 스펙을 yml 파일로 정의하여 백엔드와 프론트엔드간에 api 스펙을 공유하고 있습니다.
