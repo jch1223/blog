@@ -5,7 +5,7 @@ import { defineConfig } from './src/helpers/config-helper';
 
 export default defineConfig({
   lang: 'ko-KR',
-  site: 'https://slate-blog-topaz.vercel.app/',
+  site: 'https://blog.vitnal.xyz',
   avatar: '/avatar.png',
   title: 'Blog',
   description:
